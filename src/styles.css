@@ -1,4 +1,261 @@
+/*Base styles (extra small device-mobile)*/
+
+html {
+  font-size: 14px;
+}
+
 body {
+  margin-top: 0%;
+  margin-bottom: 0%;
+  margin-left: auto;
+  margin-right: 0%;
+  padding: 0;
+  font-family: "Trirong", serif;
+  font-size: 1em;
+  color: #444444;
+}
+
+h1 {
+  text-align: center;
+  margin: 12px 0;
+
+}
+
+h1,
+h2,
+h3 {
+  font-family: "Sofia", sans-serif;
+}
+
+#description {
+font-size: 1.25rem;
+  font-style:initial;
+}
+
+h1 {
+  font-size: 2.5rem;
+  ;
+}
+
+h2 {
+  font-size: 2rem;
+}
+
+h3 {
+  font-size: 1.75rem;
+}
+
+h4 {
+  font-size: 1.5rem;
+}
+
+h2 {
+  text-align: center;
+}
+
+a {
+  text-decoration: none;
+  color: #3B82F6;
+}
+
+a:hover a:focus {
+  color: #1D4ED8;
+}
+
+#barrier {
+  object-fit: cover;
+  height: 150px;
+  width: 100%;
+}
+
+#jobs {
+  max-width: width 500px;
+  margin: 0 auto;
+  padding: 0 8px;
+}
+#jobs-table{
+  display: none;
+}
+
+#jobs-list{
+  display: block;
+}
+
+#about {
+  display: flex;
+  flex-direction: column;
+  max-width: 500px;
+  margin: 0 auto;
+  padding: 8px;
+}
+
+.job{
+  border: 1px solid #dddddd;
+  padding: 8px;  
+  border-radius: 5px;      
+  margin-top: 8px;         
+}
+
+.job-title{
+  font-size: 1.25rem;
+  font-weight: 500;
+  color: #222222;
+}
+
+.job-detail{
+  margin-top: 4px;
+  color: #555555;
+}
+
+#Application{
+  background-color: beige;
+  }
+
+#navbar {
+  padding: 14px;
+  margin: 0;
+}
+
+#logo {
+  display: block;
+}
+
+#team{
+  width: 100%;
+}
+
+#team-image {
+  border-radius: 5px;
+  width: 100%;
+}
+
+#logo-with-text {
+  display: none;
+}
+
+#footer {
+  background-color: ghostwhite;
+  padding: 8px;
+  margin-top: 32px;
+  text-align: center;
+}
+
+#footer-links {
+  list-style: none;
+  padding-left: 0;
+}
+
+.copyright {
+  color: gray;
+}
+
+#footer-links li {
+  margin: 8px 16px;
+}
+
+/* Small devices (tablets)*/
+@media screen and (min-width:567px) {
+
+  html {
+    font-size: 16px
+  }
+
+#footer-links li{
+  display: inline;
+}
+
+  #logo {
+    display: none;
+  }
+
+  #logo-with-text {
+    display: block;
+  }
+  h1 {
+    margin: 16px 0;
+  
+  }
+  
+
+
+  #barrier{
+    height: 200px;
+  }
+}
+
+/* Medium devices (laptops)*/
+@media screen and (min-width:768px) {
+ 
+h1{
+  margin: 20px 0;
+}
+
+#jobs{
+  min-width: 800px;
+}
+
+#about {
+  max-width: 800px;
+  flex-direction: row;
+}
+
+.jobs-header-row th {
+  border: 1px solid slategray;
+  padding: 8px;
+  background-color: papayawhip;
+  text-align: center;
+}
+
+.job-data-row td {
+  border: 1px solid slategray;
+  padding: 8px;
+}
+
+#jobs-table tr:nth-child(odd) {
+  background-color: gainsboro;
+}
+
+#jobs-table{
+  display: table;
+  width: 100%;
+    border: 1px solid slategray;
+    border-collapse: collapse;
+}
+
+#jobs-list{
+  display: none;
+}
+
+#description {
+  width: 50%;
+  padding-right: 8px;
+  font-style:initial;
+}
+
+ #Application{
+  max-width: 800px;
+  }
+
+  #barrier{
+    height: 250px;
+  }
+
+}
+
+/* Large  devices (desktop)*/
+@media screen and (min-width:992px) {
+  /* CSS rules */
+}
+
+/* Extra large devices (large desktop)*/
+@media screen and (min-width:1200px) {
+ 
+  #barrier{
+    height: 320px;
+  }
+}
+
+/*body {
   margin: 0;
   padding: 0;
   font-family: "Trirong", serif;
@@ -122,3 +379,4 @@ h3 {
   display: inline;
   margin: 0 16px;
 }
+  */
